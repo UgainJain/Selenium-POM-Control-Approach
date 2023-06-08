@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Suite">
+    <listeners>
+        <listener class-name="com.nagp.selenium.Listeners.SuiteListeners"/>
+        <listener class-name="com.nagp.selenium.Listeners.TestListeners"/>
+        <listener class-name="com.nagp.selenium.Listeners.InvokeMethodListener"/>
+    </listeners>
+    <suite-files>
+        <suite-file path="BasicSearch.xml"/>
+        <suite-file path="ProductSearch.xml"/>
+    </suite-files> <!-- Test -->
+</suite> <!-- Suite -->

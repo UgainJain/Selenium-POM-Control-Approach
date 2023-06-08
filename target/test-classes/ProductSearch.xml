@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Product Suite">
+    <listeners>
+        <listener class-name="com.nagp.selenium.Listeners.SuiteListeners"/>
+        <listener class-name="com.nagp.selenium.Listeners.TestListeners"/>
+        <listener class-name="com.nagp.selenium.Listeners.InvokeMethodListener"/>
+    </listeners>
+    <test name="Test2" >
+        <classes>
+            <class name ="com.nagp.selenium.SeleniumPOMAmazon.ProductTest"/>
+        </classes>
+    </test>
+    <test name="Test3" >
+        <classes>
+            <class name ="com.nagp.selenium.SeleniumPOMAmazon.CartTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
